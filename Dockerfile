@@ -1,3 +1,3 @@
-FROM sentry:8.4.1
+FROM sentry:8.5
 
 COPY sentry.conf.py /etc/sentry/

@@ -290,6 +290,13 @@ if 'SENTRY_RUNNING_UWSGI' not in os.environ and len(secret_key) < 32:
 
 SENTRY_OPTIONS['system.secret-key'] = secret_key
 
+# Github
+github_app_id = env('GITHUB_APP_ID')
+if github_app_id:
+    GITHUB_APP_ID = github_app_id
+    GITHUB_API_SECRET =  env('GITHUB_API_SECRET')
+
+
 ###############
 #   Custom    #
 ###############

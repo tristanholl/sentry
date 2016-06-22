@@ -301,12 +301,6 @@ if github_app_id:
     if github_ssl:
         SOCIAL_AUTH_REDIRECT_IS_HTTPS = True
 
-# Trello
-trello_api_key = env('TRELLO_API_KEY')
-if trello_api_key:
-    TRELLO_API_KEY = trello_api_key
-    TRELLO_API_SECRET = env('TRELLO_API_SECRET')
-
 ###############
 #   Custom    #
 ###############

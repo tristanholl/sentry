@@ -295,7 +295,11 @@ github_app_id = env('GITHUB_APP_ID')
 if github_app_id:
     GITHUB_APP_ID = github_app_id
     GITHUB_API_SECRET =  env('GITHUB_API_SECRET')
+    GITHUB_EXTENDED_PERMISSIONS = ['repo']
 
+    github_ssl = env('GITHUB_SSL')
+    if github_ssl:
+        SOCIAL_AUTH_REDIRECT_IS_HTTPS = True
 
 ###############
 #   Custom    #

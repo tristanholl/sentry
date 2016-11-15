@@ -2,14 +2,8 @@ FROM sentry:8.10.0
 
 MAINTAINER Tristan Holl
 
-# Install Slack integration
-# RUN pip install sentry-slack
-
-# Install Github integration
-# RUN pip install sentry-github
-
-# Install Trello integration
-# RUN pip install sentry-trello
+# Install Plugins
+RUN pip install sentry-plugins
 
 # Copy custom sentry config
 COPY sentry.conf.py /etc/sentry/

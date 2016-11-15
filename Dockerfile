@@ -1,4 +1,4 @@
-FROM sentry:8.5.0
+FROM sentry:8.10.0
 
 MAINTAINER solarisBank
 

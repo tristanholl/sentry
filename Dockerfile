@@ -6,10 +6,10 @@ MAINTAINER solarisBank
 # RUN pip install sentry-slack
 
 # Install Github integration
-RUN pip install sentry-github
+# RUN pip install sentry-github
 
 # Install Trello integration
-RUN pip install sentry-trello
+# RUN pip install sentry-trello
 
 # Copy custom sentry config
 COPY sentry.conf.py /etc/sentry/

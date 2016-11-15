@@ -1,6 +1,6 @@
 FROM sentry:8.10.0
 
-MAINTAINER solarisBank
+MAINTAINER Tristan Holl
 
 # Install Slack integration
 # RUN pip install sentry-slack

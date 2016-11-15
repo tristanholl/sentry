@@ -3,7 +3,7 @@ FROM sentry:8.10.0
 MAINTAINER solarisBank
 
 # Install Slack integration
-RUN pip install sentry-slack
+# RUN pip install sentry-slack
 
 # Install Github integration
 RUN pip install sentry-github

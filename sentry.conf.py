@@ -28,6 +28,7 @@
 #  SENTRY_MAILGUN_API_KEY
 #  SENTRY_SINGLE_ORGANIZATION
 #  SENTRY_SECRET_KEY
+#  SENTRY_URL_PREFIX
 from sentry.conf.server import *  # NOQA
 from sentry.utils.types import Bool
 

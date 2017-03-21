@@ -305,3 +305,4 @@ if github_app_id:
 #   Custom    #
 ###############
 SENTRY_FEATURES['auth:register'] = False
+SENTRY_OPTIONS['system.url-prefix'] = env('SENTRY_URL_PREFIX')

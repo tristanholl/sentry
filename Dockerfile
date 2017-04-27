@@ -1,4 +1,4 @@
-FROM sentry:8.13.0
+FROM sentry:8.15.0
 
 MAINTAINER Tristan Holl
 
